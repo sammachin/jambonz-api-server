@@ -20,7 +20,7 @@ jobs:
       - name: prepare tag 
         id: prepare_tag
         run: |
-            IMAGE_ID=jambonz/db-create
+            IMAGE_ID=sammachin/jambonz-db-create
 
             # Strip git ref prefix from version
             VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
